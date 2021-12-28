@@ -22,5 +22,14 @@ global using global::Microsoft.AspNetCore.Mvc;
 global using global::Microsoft.AspNetCore.Routing;
 global using global::Microsoft.Extensions.Configuration;
 global using global::Microsoft.Extensions.DependencyInjection;
+global using global::Microsoft.Extensions.DependencyInjection.Extensions;
 global using global::Microsoft.Extensions.Hosting;
 global using global::Microsoft.Extensions.Logging;
+
+global using Microsoft.AspNetCore.Authentication.Cookies;
+
+global using WebEssentials.AspNetCore.OutputCaching;
+global using WebMarkupMin.AspNetCore6;
+global using WebMarkupMin.Core;
+
+
